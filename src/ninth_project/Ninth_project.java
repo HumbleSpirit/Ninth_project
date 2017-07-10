@@ -35,7 +35,7 @@ public class Ninth_project {
         System.out.println(str2);*/
         PrintHelloWorld();
         Summator(6, 18);
-        
+        Summator(5, 7);
     }
     
 }
