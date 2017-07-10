@@ -10,7 +10,10 @@ package ninth_project;
  * @author Boro_s99
  */
 public class Ninth_project {
-
+    static void Print() 
+    {
+        System.out.println("Hello World");
+    }
     /**
      * @param args the command line arguments
      */
@@ -24,7 +27,7 @@ public class Ninth_project {
         str2 = "Kolya";
         System.out.println(str1);
         System.out.println(str2);*/
-        
+        Print();
         
     }
     
