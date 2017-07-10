@@ -36,6 +36,9 @@ public class Ninth_project {
         PrintHelloWorld();
         Summator(6, 18);
         Summator(5, 7);
+        int a = 6;
+        int b = 8;
+        Summator(a, b);
     }
     
 }
