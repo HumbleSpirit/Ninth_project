@@ -26,6 +26,14 @@ public class Ninth_project {
                 System.out.println(mas[i]);
             }
     }
+     static void Print4(int mas2[])
+    {
+        for (int i = 0; i < mas2.length; i++) 
+            {
+                mas2[i] = 10;
+                System.out.println(mas2[i]);
+            }
+    }
     
     /**
      * @param args the command line arguments
@@ -61,6 +69,8 @@ public class Ninth_project {
   
         }*/
         int mas[] = {2,3,4};
+        int mas2[] = {1,2,3};
         Print3(mas);
+        Print4(mas2);
     }
-}
+    }
