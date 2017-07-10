@@ -11,7 +11,7 @@ package ninth_project;
  */
 public class Ninth_project {
     
-    static int DividerSimple(int x, int y)
+  /*  static int DividerSimple(int x, int y)
     {
         //System.out.println(x - y);   
         //int sum = x + y;
@@ -33,6 +33,57 @@ public class Ninth_project {
                 mas2[i] = 10;
                 System.out.println(mas2[i]);
             }
+    }
+    static int[] Print5(int mas2[])
+    {
+        int size = mas2.length;
+        int masMy[] = new int[size];
+        for (int i = 0; i < size; i++) 
+        {
+            masMy[i] = mas2[i];
+            masMy[i] = 10;
+        }
+        return masMy;
+    }*/
+    static int ThirdPow(int a)
+    
+    {
+        return a * a * a;
+    }
+    static double Max (double a, double b)
+    
+    {
+        if (a > b)
+            return a;
+        else return b;
+        //return (a > b)? a : b;
+    }
+    static boolean NegPositive(int a)
+    {
+        return (a >= 0)? true : false;
+    }
+    
+    static void Rectangle(int n, int k)
+    {
+        for (int i = 0; i < n; i++) 
+        {
+            for (int j = 0; j < k; j++) 
+            {
+                System.out.print("*");    
+            }
+            System.out.println("");    
+        }
+        
+    }
+    static void Factorial(int n)
+    {
+        int fact = 1;
+        for (int i = 1; i <= n; i++) 
+        {
+            fact*=i;
+            
+        }
+        System.out.println(fact);
     }
     
     /**
@@ -68,9 +119,19 @@ public class Ninth_project {
         System.out.println( a + b );
   
         }*/
-        int mas[] = {2,3,4};
+      /*  int mas[] = {2,3,4};
         int mas2[] = {1,2,3};
         Print3(mas);
-        Print4(mas2);
+        Print4(mas2);*/
+    /*    int mas1[] = {2,3,4};
+        mas1 = Print5(mas1);
+        System.out.println(mas1[0]);*/
+        int a = ThirdPow(5);
+        System.out.println(a);
+        System.out.println(ThirdPow(5));
+        System.out.println(Max(4,5));
+        System.out.println(NegPositive(-4));
+        Rectangle(5,5);
+        Factorial(3);
     }
     }
