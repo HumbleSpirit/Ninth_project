@@ -10,13 +10,14 @@ package ninth_project;
  * @author Boro_s99
  */
 public class Ninth_project {
-    static void PrintHelloWorld() 
+    
+    static int DividerSimple(int x, int y)
     {
-        System.out.println("Hello World");
-    }
-    static void Summator(int a, int b) 
-    {
-        System.out.println( a + b );
+        //System.out.println(x - y);   
+        //int sum = x + y;
+        //return sum;
+        return x + y;
+        
     }
 
     
@@ -39,6 +40,17 @@ public class Ninth_project {
         int a = 6;
         int b = 8;
         Summator(a, b);
+        //System.out.println(DividerSimple(5, 4) - DividerSimple(5, 4));
+        int num1 = DividerSimple(6, 7);
+         System.out.println(num1);
     }
-    
+    static void PrintHelloWorld() 
+    {
+        System.out.println("Hello World");
+        Summator(6, 41);
+    }
+    static void Summator(int a, int b) 
+    {
+        System.out.println( a + b );
+    }
 }
