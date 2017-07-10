@@ -10,10 +10,16 @@ package ninth_project;
  * @author Boro_s99
  */
 public class Ninth_project {
-    static void Print() 
+    static void PrintHelloWorld() 
     {
         System.out.println("Hello World");
     }
+    static void Summator(int a, int b) 
+    {
+        System.out.println( a + b );
+    }
+
+    
     /**
      * @param args the command line arguments
      */
@@ -27,7 +33,8 @@ public class Ninth_project {
         str2 = "Kolya";
         System.out.println(str1);
         System.out.println(str2);*/
-        Print();
+        PrintHelloWorld();
+        Summator(6, 18);
         
     }
     
