@@ -19,7 +19,13 @@ public class Ninth_project {
         return x + y;
         
     }
-
+    static void Print3(int mas[])
+    {
+        for (int i = 0; i < mas.length; i++) 
+            {
+                System.out.println(mas[i]);
+            }
+    }
     
     /**
      * @param args the command line arguments
@@ -34,7 +40,7 @@ public class Ninth_project {
         str2 = "Kolya";
         System.out.println(str1);
         System.out.println(str2);*/
-        PrintHelloWorld();
+    /*    PrintHelloWorld();
         Summator(6, 18);
         Summator(5, 7);
         int a = 6;
@@ -52,5 +58,9 @@ public class Ninth_project {
     static void Summator(int a, int b) 
     {
         System.out.println( a + b );
+  
+        }*/
+        int mas[] = {2,3,4};
+        Print3(mas);
     }
 }
